@@ -1,2 +1,1 @@
-stack-queue
-===========
+Ruby Stack and Queue Implementation
