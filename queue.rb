@@ -5,7 +5,7 @@ class Queue
     @head, @tail = 0, 0
   end
 
-  def unshift
+  def shift
     if empty?
       nil
     else
@@ -17,7 +17,7 @@ class Queue
     end
   end
 
-  def shift(element)
+  def push(element)
     if full? or element.nil?
       nil
     else
